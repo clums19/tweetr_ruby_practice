@@ -5,3 +5,15 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Tweet.create({
+    title: "Foodie",
+    content: "Found this cool recipe for cheescake! I'm trying it today",
+    author: "ILoveFood123"
+})
+
+Tweet.create({
+    title: "Daily Afirmation",
+    content: "I will recieve what is meant for me.",
+    author: "AfirmationJunction77"
+})
